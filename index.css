@@ -1,0 +1,101 @@
+
+#clouse{
+    height: 120vh;
+    width: 50vw;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    background-image: url(baba-PhotoRoom.png-PhotoRoom.png);
+    
+    background-size: cover;
+    position: absolute;
+    animation: animoter 1s ease-in infinite;
+    }
+    @keyframes animoter {
+        from{background-color: rgba(238, 130, 238, 0.016);}
+        to {background-color: rgba(217, 255, 0, 0.324);}
+        
+    }
+
+    #closem{
+        height: 120vh;
+        width: 65vw;
+        position: absolute;
+        top: 300px;
+        left:40vw ;
+        background-image: url(bg.jpg2.png);
+        background-size: cover;
+        position: absolute;
+        z-index: 3;
+        animation: animotem 1s ease-in  infinite   reverse both running  ;
+    }
+        @keyframes animotem {
+            from{transform: translate(40px);}
+            to{transform: translate(20vw);}
+            
+        }
+    
+    h1{width: 300px;
+        height: 80PX;
+        
+    
+        transform: scale(5);
+        font-weight: 900;
+        text-align: center;
+        
+        background: linear-gradient(to right,rgba(255, 255, 0, 0.418),rgba(0, 0, 255, 0.29));
+        color: black;
+    
+        border-radius: 100px;
+       position: absolute;
+       top: 400px;
+       left: 65vw;
+    }
+    #clonet{
+        height: 300px;
+      width: 300px;
+      border-radius: 100%;
+      background: linear-gradient(to right,rgba(255, 255, 0, 0.418),rgba(0, 0, 255, 0.29));
+      position: absolute;
+      left: 43vw;
+      top: 18vh;
+      
+      animation:animal 0.5s linear infinite  reverse both running   ;
+
+    }
+    @keyframes animal {
+        from{left: 41vw;}
+        to{left: 46vw;}
+        
+    }
+    #roman{
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        background: linear-gradient(to right,rgba(255, 255, 0, 0.418),rgba(0, 0, 255, 0.29));
+        position: absolute;
+        left: 95vw;
+        top: 16vh;
+        animation:animate 0.5s linear infinite reverse both running  ;
+
+    }
+    @keyframes animate {
+        from{left: 86vw;}
+        to{left: 98vw;}
+        
+    }
+    body{
+        height:fit-content;
+        width: fit-content;
+        background-image: url(img.png1.jpg);
+        background-size: cover;
+       animation: animote 1s ease-in infinite;
+    }
+    @keyframes animote {
+        from{background-image: url(istockphoto-1312782412-170667a.webp);}
+        to{background-image: url(img.png1.jpg);}
+        
+    }
+    
+
+
